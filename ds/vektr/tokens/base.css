@@ -1,8 +1,0 @@
-/* Document defaults + link colours, so consumers inherit Vektr type and brand links by default. */
-:root{color-scheme:light}
-:root[data-theme="dark"]{color-scheme:dark}
-body{font-family:var(--font-sans);font-size:var(--text-body-base);line-height:var(--lh-body-base);color:var(--text-primary);background:var(--surface-base);-webkit-font-smoothing:antialiased}
-a{color:var(--brand-primary);text-decoration:none}
-a:hover{color:var(--brand-primary-hover);text-decoration:underline}
-a:active{color:var(--brand-primary-active)}
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--border-focus);outline-offset:2px;border-radius:calc(var(--radius-sm) * 1px)}
