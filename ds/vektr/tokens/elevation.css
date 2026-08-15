@@ -1,0 +1,27 @@
+/* Shadows — transcribed verbatim from the Shadows page (Light Mode / Dark Mode frames). */
+:root{
+--shadow-small: 0px 1px 2px 0px rgba(30,41,59,0.12); /* @kind shadow */
+--shadow-medium: 0px 2px 2px 1px rgba(30,41,59,0.04),0px 2px 8px -1px rgba(30,41,59,0.12); /* @kind shadow */
+--shadow-large: 0px 2px 2px -1px rgba(30,41,59,0.04),0px 8px 16px -2px rgba(30,41,59,0.12); /* @kind shadow */
+}
+:root[data-theme="dark"],.dark{
+--shadow-small: 0px 1px 2px 0px rgba(0,0,0,0.2); /* @kind shadow */
+--shadow-medium: 0px 4px 6px -1px rgba(0,0,0,0.3); /* @kind shadow */
+--shadow-large: 0px 10px 15px -3px rgba(0,0,0,0.4); /* @kind shadow */
+}
+/* Opacity scale — from the Opacity Overview page. Each step carries a documented use. */
+:root{
+--opacity-0: 0; /* @kind other */
+--opacity-05: 0.05; /* @kind other */
+--opacity-10: 0.10; /* @kind other */
+--opacity-20: 0.20; /* @kind other */
+--opacity-30: 0.30; /* @kind other */
+--opacity-40: 0.40; /* @kind other */
+--opacity-50: 0.50; /* @kind other */
+--opacity-60: 0.60; /* @kind other */
+--opacity-70: 0.70; /* @kind other */
+--opacity-80: 0.80; /* @kind other */
+--opacity-90: 0.90; /* @kind other */
+--opacity-95: 0.95; /* @kind other */
+--opacity-100: 1; /* @kind other */
+}
