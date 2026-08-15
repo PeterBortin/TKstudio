@@ -1,6 +1,0 @@
-/* Vektr Design System — global CSS entry point. Consumers link this one file. */
-@import './tokens/fonts.css';
-@import './tokens/fig-tokens.css';
-@import './tokens/typography.css';
-@import './tokens/elevation.css';
-@import './tokens/base.css';
